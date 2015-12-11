@@ -9,12 +9,7 @@
       <element id="archive" name="servlet_Mod-1.0-SNAPSHOT.war">
         <element id="artifact" artifact-name="Servlet_modul:war exploded" />
       </element>
-      <element id="directory" name="lib">
-        <element id="library" level="project" name="Maven: javax:javaee-api:6.0" />
-        <element id="archive" name="Ex-ejb-1.0-SNAPSHOT.jar">
-          <element id="artifact" artifact-name="Ex-Time:ejb exploded" />
-        </element>
-      </element>
+      <element id="library" level="project" name="Maven: javax:javaee-api:6.0" />
     </root>
   </artifact>
 </component>

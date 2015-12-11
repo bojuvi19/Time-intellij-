@@ -18,6 +18,7 @@
         </dependency>
     </dependencies>
     <artifactId>EJB_NEW_MOD</artifactId>
+    <version>0.2.b</version>
 
 
 </project>

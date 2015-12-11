@@ -10,9 +10,7 @@
           <element id="archive" name="Ex-ejb-1.0-SNAPSHOT.jar">
             <element id="module-output" name="Ex-Time" />
           </element>
-          <element id="archive" name="EJB_NEW_MOD-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="EJB_NEW_MOD" />
-          </element>
+          <element id="library" level="project" name="Maven: Ex:EJB_NEW_MOD:1.0-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.jvnet.localizer:maven-localizer-plugin:1.5" />
           <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-api:2.0.1" />
           <element id="library" level="project" name="Maven: org.apache.maven:maven-archiver:2.0.1" />

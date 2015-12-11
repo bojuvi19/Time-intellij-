@@ -26,7 +26,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Ex-Time" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax:javaee-web-api:7.0" level="project" />
-    <orderEntry type="module" module-name="EJB_NEW_MOD" />
+    <orderEntry type="library" name="Maven: Ex:EJB_NEW_MOD:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.jvnet.localizer:maven-localizer-plugin:1.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-api:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven:maven-archiver:2.0.1" level="project" />
