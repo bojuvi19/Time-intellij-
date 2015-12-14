@@ -10,14 +10,11 @@ git.properties
 *iml
 *iws
 .idea
+.idea/
 *ipr
 ishopdb
 *.log
 
-# Eclipse Project Files
-.settings/
-.gwt/
-.project
-.classpath
 
-random_seed
+
+
