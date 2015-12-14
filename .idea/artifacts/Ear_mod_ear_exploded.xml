@@ -6,6 +6,9 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/Ear_mod/target/EAR-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
+      <element id="archive" name="EJB_NEW_MOD-1.0-SNAPSHOT.jar">
+        <element id="artifact" artifact-name="EJB_NEW_MOD:ejb exploded" />
+      </element>
       <element id="archive" name="servlet_Mod-1.0-SNAPSHOT.war">
         <element id="artifact" artifact-name="Servlet_modul:war exploded" />
       </element>

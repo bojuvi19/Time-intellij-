@@ -7,7 +7,7 @@ import javax.ejb.Remote;
 import javax.ejb.Stateless;
 import java.util.Date;
 
-@Stateless(name = "Ejb_modEJB")
+@Stateless
 public class Ejb_modBean {
 
         public Date get_time(){

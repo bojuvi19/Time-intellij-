@@ -20,7 +20,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: Ex:EJB_NEW_MOD:ejb:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="EJB_NEW_MOD" />
     <orderEntry type="module" module-name="Servlet_modul" />
     <orderEntry type="library" name="Maven: javax:javaee-api:6.0" level="project" />
   </component>

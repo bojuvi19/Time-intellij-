@@ -18,7 +18,6 @@
                 <groupId>${project.groupId}</groupId>
                 <artifactId>EJB_NEW_MOD</artifactId>
                 <version>${project.parent.version}</version>
-                <scope>provided</scope>
                 <type>ejb</type>
 
             </dependency>
@@ -33,9 +32,9 @@
         </dependency>
     </dependencies>
 
-<build>
+<!--<build>
     <plugins>
-        <!--<plugin>
+        <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-ear-plugin</artifactId>
             <configuration>
@@ -57,9 +56,9 @@
                 </modules>
             </configuration>
 
-        </plugin>-->
+        </plugin>
 
     </plugins>
-</build>
+</build>-->
 
 </project>

@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "MainServlet", urlPatterns = {"/current", "/"})
 public class MainServlet extends HttpServlet{
 
-    @EJB(name = "Ejb_modBean")
+    @EJB
     private Ejb_modBean  newSessionBean;
 
 
