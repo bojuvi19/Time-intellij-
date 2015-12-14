@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="ejb-jar" name="EJB_NEW_MOD:ejb">
-    <output-path>$PROJECT_DIR$/EJB_NEW_MOD/target</output-path>
-    <root id="archive" name="EJB_NEW_MOD-1.0-SNAPSHOT.jar">
-      <element id="artifact" artifact-name="EJB_NEW_MOD:ejb exploded" />
-    </root>
-  </artifact>
-</component>
