@@ -13,10 +13,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(name = "MainServlet", urlPatterns = {"/current", "/"})
-public class MainServlet extends HttpServlet{
+public class MainServlet extends HttpServlet {
 
     @EJB
-    private Ejb_modBean  newSessionBean;
+    private Ejb_modBean newSessionBean;
 
 
     @Override
@@ -25,7 +25,7 @@ public class MainServlet extends HttpServlet{
         response.setContentType("text/html");
         request.setAttribute("123", new SimpleDateFormat("HH:mm").format(newSessionBean.get_time()));
 
-        RequestDispatcher dispatcher= request.getRequestDispatcher("/Static_time.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/Static_time.jsp");
         dispatcher.forward(request, response);
     }
 }

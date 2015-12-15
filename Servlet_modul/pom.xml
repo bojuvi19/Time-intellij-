@@ -11,7 +11,7 @@
 
     <artifactId>servlet_Mod</artifactId>
 
-<packaging>war</packaging>
+    <packaging>war</packaging>
     <dependencies>
 
         <dependency>
@@ -30,18 +30,5 @@
     </dependencies>
 
 
-    <build>
-        <plugins>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.1.1</version>
-                <configuration>
-                    <packagingExcludes>WEB-INF/lib/*.jar</packagingExcludes>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>

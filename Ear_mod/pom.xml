@@ -14,14 +14,13 @@
     <packaging>ear</packaging>
     <dependencies>
 
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>EJB_NEW_MOD</artifactId>
-                <version>${project.parent.version}</version>
-                <type>ejb</type>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>EJB_NEW_MOD</artifactId>
+            <version>${project.parent.version}</version>
+            <type>ejb</type>
 
-            </dependency>
-
+        </dependency>
 
 
         <dependency>
@@ -31,6 +30,9 @@
             <type>war</type>
         </dependency>
     </dependencies>
+
+
+
 
 <!--<build>
     <plugins>
